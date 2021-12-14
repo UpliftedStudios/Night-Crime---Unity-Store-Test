@@ -1,0 +1,554 @@
+Unity Editor version:    2020.3.24f1 (79c78de19888)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.5.2 (Build 20G95)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Users/marcush/Unity Projects/2020.3.24f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/marcush/Unity Projects/Night Crime
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57808
+Successfully changed project path to: /Users/marcush/Unity Projects/Night Crime
+/Users/marcush/Unity Projects/Night Crime
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 52.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.24f1 (79c78de19888)
+[Subsystems] Discovering subsystems at path /Users/marcush/Unity Projects/2020.3.24f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/marcush/Unity Projects/Night Crime/Assets
+GfxDevice: creating device client; threaded=0
+2021-12-13 22:40:27.907 Unity[63929:2263564] Color LCD preferred device: Intel(R) HD Graphics 530 (low power)
+2021-12-13 22:40:27.907 Unity[63929:2263564] Metal devices available: 2
+2021-12-13 22:40:27.907 Unity[63929:2263564] 0: AMD Radeon Pro 460 (high power)
+2021-12-13 22:40:27.907 Unity[63929:2263564] 1: Intel(R) HD Graphics 530 (low power)
+2021-12-13 22:40:27.908 Unity[63929:2263564] Using device AMD Radeon Pro 460 (high power)
+Initializing Metal device caps: AMD Radeon Pro 460
+Initialize mono
+Mono path[0] = '/Users/marcush/Unity Projects/2020.3.24f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/marcush/Unity Projects/2020.3.24f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Users/marcush/Unity Projects/2020.3.24f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56929
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/marcush/Unity Projects/2020.3.24f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Users/marcush/Unity Projects/2020.3.24f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000977 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 49.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.844 seconds
+Domain Reload Profiling:
+	ReloadAssembly (844ms)
+		BeginReloadAssembly (53ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (686ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002566 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 64.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.807 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1808ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1498ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (520ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (574ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (381ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.000228 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.000308 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Users/marcush/Unity Projects/2020.3.24f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.3 MB.
+System memory in use after: 193.5 MB.
+
+Unloading 101 unused Assets to reduce memory usage. Loaded Objects now: 2667.
+Total: 4.759602 ms (FindLiveObjects: 0.304181 ms CreateObjectMapping: 0.137088 ms MarkObjects: 3.625821 ms  DeleteObjects: 0.691093 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Night Crime
+  artifactKey: Guid(0e134d67f2bfd4350be3a4a715c7495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime using Guid(0e134d67f2bfd4350be3a4a715c7495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed01f8210528a07bb7b541c6f7ab14fe') in 0.008459 seconds 
+  Import took 0.014250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.622895 seconds.
+  path: Assets/Night Crime/night-crime-image.jpeg
+  artifactKey: Guid(ab4a27a5547cf427980056538f367ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/night-crime-image.jpeg using Guid(ab4a27a5547cf427980056538f367ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811b08619f9438af0aa234a44425a109') in 1.596853 seconds 
+  Import took 1.607364 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005881 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.516 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1516ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (1270ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (478ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (446ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2184 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.9 MB.
+System memory in use after: 197.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2681.
+Total: 3.499158 ms (FindLiveObjects: 0.238097 ms CreateObjectMapping: 0.088838 ms MarkObjects: 3.151721 ms  DeleteObjects: 0.019304 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 215.559918 seconds.
+  path: Assets/Night Crime/Drums
+  artifactKey: Guid(b44575b5ceb024de8a4c9bf94d3c2ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Drums using Guid(b44575b5ceb024de8a4c9bf94d3c2ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa5aec8e72a1a2943eb7e0bacef30c9') in 0.010079 seconds 
+  Import took 0.015087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.232921 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa27944bdea339c97c39027c7eea529c') in 0.012250 seconds 
+  Import took 0.017518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.190380 seconds.
+  path: Assets/Night Crime/Examples.unity
+  artifactKey: Guid(11e261f74cb844e6781c101582e1a35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Examples.unity using Guid(11e261f74cb844e6781c101582e1a35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06401e4ac0e0ea2f7adfc40ee762f873') in 0.004670 seconds 
+  Import took 0.010006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.153944 seconds.
+  path: Assets/Night Crime/Drums/Drum Kit Loop - Long.wav
+  artifactKey: Guid(e731bb9376b8e44f2a1bd41018c5b3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Drums/Drum Kit Loop - Long.wav using Guid(e731bb9376b8e44f2a1bd41018c5b3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1006814911296c742a25b1928ab4502') in 1.427804 seconds 
+  Import took 1.436262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Night Crime/Drums/Kick Snare Loop.wav
+  artifactKey: Guid(32cb4a881f49e4d80a6a116327b86b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Drums/Kick Snare Loop.wav using Guid(32cb4a881f49e4d80a6a116327b86b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430d9d263f37b992b79f8b5911a7179a') in 0.013968 seconds 
+  Import took 0.017787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Night Crime/Drums/Drum Kit Loop - Short.wav
+  artifactKey: Guid(c9de6c496a6564b06aea9986517adc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Drums/Drum Kit Loop - Short.wav using Guid(c9de6c496a6564b06aea9986517adc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d766f72080d5096c585c78b49bed59') in 0.009481 seconds 
+  Import took 0.013971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Night Crime/Drums/Hi Hat Loop.wav
+  artifactKey: Guid(7c43cd5caeb034e4fba08e58a69d973a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Drums/Hi Hat Loop.wav using Guid(7c43cd5caeb034e4fba08e58a69d973a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bed7629bb5673e0fd81058ee7ffe223') in 0.010133 seconds 
+  Import took 0.014623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Night Crime/Drums/Drum Kit Loop - Medium.wav
+  artifactKey: Guid(3d04d6c64b35b4e9dab5f214a0f821f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Drums/Drum Kit Loop - Medium.wav using Guid(3d04d6c64b35b4e9dab5f214a0f821f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ed15b35807560124724d7f7a17b822') in 0.008871 seconds 
+  Import took 0.012720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.011065 seconds.
+  path: Assets/Night Crime/Full Track/Night Crime Loop - Long.wav
+  artifactKey: Guid(bb3dbf9a459884865b33e84621856a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Full Track/Night Crime Loop - Long.wav using Guid(bb3dbf9a459884865b33e84621856a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b847512d70bf711cda9d171e0354cf4') in 0.015316 seconds 
+  Import took 0.020530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Night Crime/Full Track/Night Crime.wav
+  artifactKey: Guid(48a9a1a3fc0dc45339b765dce0e3575f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Full Track/Night Crime.wav using Guid(48a9a1a3fc0dc45339b765dce0e3575f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cc3ae49fa18f9621ef5b504bb19700') in 0.013357 seconds 
+  Import took 0.019358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Night Crime/Full Track/Night Crime Loop - Short.wav
+  artifactKey: Guid(befaebbbd58fc4214965fc6f44afafc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Full Track/Night Crime Loop - Short.wav using Guid(befaebbbd58fc4214965fc6f44afafc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578c341810f24e3fa1ae93ed5138a608') in 0.014657 seconds 
+  Import took 0.019538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.693024 seconds.
+  path: Assets/Night Crime/Instruments/Bass/Bass Loop - Long.wav
+  artifactKey: Guid(a28a72ca1a26348498de24dd571b38e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Bass/Bass Loop - Long.wav using Guid(a28a72ca1a26348498de24dd571b38e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92019dc6ca0499e8813c0bbe0c4de167') in 0.014942 seconds 
+  Import took 0.020677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Night Crime/Instruments/Bass/Bass Loop - Short.wav
+  artifactKey: Guid(b5c99555c4d1443c984146fcc38cb789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Bass/Bass Loop - Short.wav using Guid(b5c99555c4d1443c984146fcc38cb789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a529075bf41fe323268323b9ad25347e') in 0.012418 seconds 
+  Import took 0.017153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.113026 seconds.
+  path: Assets/Night Crime/Instruments/Lead/Melody 1/Melody 1 Loop - Full.wav
+  artifactKey: Guid(20a9d9bfd00234d538eaba23c28158ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Lead/Melody 1/Melody 1 Loop - Full.wav using Guid(20a9d9bfd00234d538eaba23c28158ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89e6ddb5a922331cd1ac2bf2716022e') in 0.013721 seconds 
+  Import took 0.019083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Night Crime/Instruments/Lead/Melody 1/Melody 1 Loop - Squelch.wav
+  artifactKey: Guid(7b5d8e420f0e8479eb9d91a289196c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Lead/Melody 1/Melody 1 Loop - Squelch.wav using Guid(7b5d8e420f0e8479eb9d91a289196c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043b9c47be12d6e6a239316099ace6b6') in 0.011043 seconds 
+  Import took 0.016033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Night Crime/Instruments/Lead/Melody 1/Melody 1 Loop - Lead.wav
+  artifactKey: Guid(79bab015acddd4776abceca0f8e3bde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Lead/Melody 1/Melody 1 Loop - Lead.wav using Guid(79bab015acddd4776abceca0f8e3bde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d9b4718e62d6fa86c5e08835113545') in 0.013426 seconds 
+  Import took 0.020501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.942985 seconds.
+  path: Assets/Night Crime/Instruments/Lead/Melody 2/Melody 2 Loop - Full.wav
+  artifactKey: Guid(676b31c360ce74a7aa7a5f2f112d919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Lead/Melody 2/Melody 2 Loop - Full.wav using Guid(676b31c360ce74a7aa7a5f2f112d919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8def9f6bfc30cedeeda22b0d7e02769') in 0.013374 seconds 
+  Import took 0.019686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Night Crime/Instruments/Lead/Melody 2/Melody 2 Loop - Lead.wav
+  artifactKey: Guid(cb765ec31560f496698c54cddab1edff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Lead/Melody 2/Melody 2 Loop - Lead.wav using Guid(cb765ec31560f496698c54cddab1edff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd19fc1b5ea20222cfd8ad9b9d3f504f') in 0.014470 seconds 
+  Import took 0.019584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Night Crime/Instruments/Lead/Melody 3/Melody 3 Loop - Full.wav
+  artifactKey: Guid(9eba05c88cfd8444c99671e7fa7b3967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Lead/Melody 3/Melody 3 Loop - Full.wav using Guid(9eba05c88cfd8444c99671e7fa7b3967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f5e4ccbe490b61b94d130996bce0f3') in 0.018136 seconds 
+  Import took 0.024085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Night Crime/Instruments/Lead/Melody 3/Melody 3 Loop - Lead.wav
+  artifactKey: Guid(42a68d37bc2304c608f9dfd62fb13303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Lead/Melody 3/Melody 3 Loop - Lead.wav using Guid(42a68d37bc2304c608f9dfd62fb13303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14dbabe2eb5859435b83d71a9eccc5f6') in 0.010833 seconds 
+  Import took 0.015852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Night Crime/Instruments/Lead/Melody 4/Melody 4 Loop - Lead.wav
+  artifactKey: Guid(9b5a437a7867b420190db24fe53d7e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Lead/Melody 4/Melody 4 Loop - Lead.wav using Guid(9b5a437a7867b420190db24fe53d7e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697a4c6df05ba626a90ac43bb5e018cb') in 0.010549 seconds 
+  Import took 0.014694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Night Crime/Instruments/Lead/Melody 4/Melody 4 Loop - Harmony.wav
+  artifactKey: Guid(033c9e787a630425c99816f15563b0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Lead/Melody 4/Melody 4 Loop - Harmony.wav using Guid(033c9e787a630425c99816f15563b0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570a540e691e2aa2dbe22455701fdca6') in 0.010782 seconds 
+  Import took 0.015615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Night Crime/Instruments/Lead/Melody 3/Melody 3 Loop - Harmony.wav
+  artifactKey: Guid(44d569625c0624741b69ad15a58d800b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Lead/Melody 3/Melody 3 Loop - Harmony.wav using Guid(44d569625c0624741b69ad15a58d800b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6d7f6556fd4004ede4a6a37725f460') in 0.015888 seconds 
+  Import took 0.021166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Night Crime/Instruments/Lead/Melody 2/Melody 2 Loop - Squelch.wav
+  artifactKey: Guid(9c17d9496717f4289947ff0fa4a4d416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Lead/Melody 2/Melody 2 Loop - Squelch.wav using Guid(9c17d9496717f4289947ff0fa4a4d416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db915fe7c21855c1a9c401709e7c8cfe') in 0.011121 seconds 
+  Import took 0.015826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Night Crime/Instruments/Lead/Melody 4/Melody 4 Loop - Full.wav
+  artifactKey: Guid(688ae3b8f61204b31a52aa857234fee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Lead/Melody 4/Melody 4 Loop - Full.wav using Guid(688ae3b8f61204b31a52aa857234fee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b177499db4b913c31575a253cd75812') in 0.021662 seconds 
+  Import took 0.026640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Night Crime/Instruments/Lead/Melody 2/Melody 2 Loop - Harmony.wav
+  artifactKey: Guid(8695ec87188fb4ae9a95c0627ee41a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Lead/Melody 2/Melody 2 Loop - Harmony.wav using Guid(8695ec87188fb4ae9a95c0627ee41a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c1bfc5fc5c1090a78e920a6ef29ae0') in 0.011770 seconds 
+  Import took 0.017614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.846961 seconds.
+  path: Assets/Night Crime/Instruments/Pad/Pad Loop - Arp.wav
+  artifactKey: Guid(a2c32f2b734ee47d19d6c011dbd9cd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Pad/Pad Loop - Arp.wav using Guid(a2c32f2b734ee47d19d6c011dbd9cd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2ab53bb97c75bf07bc104f5e8fdc91') in 0.014342 seconds 
+  Import took 0.020193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Night Crime/Instruments/Pad/Pad Loop - Full.wav
+  artifactKey: Guid(68df6ab55e8044816bb1580c93cda83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Pad/Pad Loop - Full.wav using Guid(68df6ab55e8044816bb1580c93cda83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1f6f3e3b3e8cb58690b7d79e3faa05') in 0.013029 seconds 
+  Import took 0.018752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Night Crime/Instruments/Pad/Pad Loop - Top.wav
+  artifactKey: Guid(7750f1c91cb664f64844199abeff4efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Pad/Pad Loop - Top.wav using Guid(7750f1c91cb664f64844199abeff4efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8befb260ef5b849f9e5df2d1215f7717') in 0.020684 seconds 
+  Import took 0.027537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Night Crime/Instruments/Pad/Pad Loop - Bottom.wav
+  artifactKey: Guid(74ca0bc64bb5c436bbf1966169ca9572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Pad/Pad Loop - Bottom.wav using Guid(74ca0bc64bb5c436bbf1966169ca9572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8268e26160c4f13f2e1cf742caca2448') in 0.010245 seconds 
+  Import took 0.016781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 245.737231 seconds.
+  path: Assets/AssetStoreTools/AS_Checklist.asset
+  artifactKey: Guid(3cd6ae9b8300d4a50bd61a4122d2a270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/AS_Checklist.asset using Guid(3cd6ae9b8300d4a50bd61a4122d2a270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5318818201359b051bde5035cb53cbfd') in 1.426218 seconds 
+  Import took 1.434089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.195328 seconds.
+  path: Assets/Night Crime/Demo.unity
+  artifactKey: Guid(db0dce780d82f415687e3e4094d37f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Demo.unity using Guid(db0dce780d82f415687e3e4094d37f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e821eec29f103351fa7492124faa7a88') in 0.003622 seconds 
+  Import took 0.009223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.142710 seconds.
+  path: Assets/Night Crime/Instruments
+  artifactKey: Guid(84c90c88624e3479ead44488d66c87f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments using Guid(84c90c88624e3479ead44488d66c87f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8abf29836e6222d02fa3cfdd022f612') in 0.006949 seconds 
+  Import took 0.011553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.034783 seconds.
+  path: Assets/Night Crime/Instruments/Lead/Melody 1
+  artifactKey: Guid(5f4e53688d1fd418599a66fd08db3eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Lead/Melody 1 using Guid(5f4e53688d1fd418599a66fd08db3eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87cd1de621625e1a695533f96d3318c8') in 0.006931 seconds 
+  Import took 0.012359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.727865 seconds.
+  path: Assets/Night Crime/Instruments/Lead/Melody 3
+  artifactKey: Guid(5e444954863814d1db7fd057f1b1b55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Lead/Melody 3 using Guid(5e444954863814d1db7fd057f1b1b55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a005fdde9d8d24d0ff77b3374c1e6dfb') in 0.007056 seconds 
+  Import took 0.012132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 214.089298 seconds.
+  path: Assets/Night Crime/Instruments/Pad
+  artifactKey: Guid(2576463e645054178b2705f9752dab5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Pad using Guid(2576463e645054178b2705f9752dab5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8867dc6b1ed0f13a35a2ef5fed8b15') in 0.001761 seconds 
+  Import took 0.006157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007846 seconds.
+  path: Assets/Night Crime/Instruments/Bass
+  artifactKey: Guid(ea5e0282f64e4435ab337d49747a4c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Bass using Guid(ea5e0282f64e4435ab337d49747a4c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5350455c26021b24f206ef7455ab54ad') in 0.001023 seconds 
+  Import took 0.006544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001546 seconds.
+  path: Assets/Night Crime/Instruments/Lead/Melody 2
+  artifactKey: Guid(3579d71a638fb41b9a06ea96c10bb216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Lead/Melody 2 using Guid(3579d71a638fb41b9a06ea96c10bb216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96d8e052dafacab4c22ee6da460e69f') in 0.001350 seconds 
+  Import took 0.005881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021733 seconds.
+  path: Assets/Night Crime/Instruments/Lead/Melody 4
+  artifactKey: Guid(bff987e9cd8d74dafae53a9d6e433716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Lead/Melody 4 using Guid(bff987e9cd8d74dafae53a9d6e433716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a35f294eb4a2342de6be9e5949c0119') in 0.001774 seconds 
+  Import took 0.008961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014871 seconds.
+  path: Assets/Night Crime/Instruments/Lead
+  artifactKey: Guid(21e5493ba926d4496a9c06a6b63f554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Instruments/Lead using Guid(21e5493ba926d4496a9c06a6b63f554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14098d803c666bd878029abc1496d874') in 0.001818 seconds 
+  Import took 0.008229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004180 seconds.
+  path: Assets/Night Crime/Full Track
+  artifactKey: Guid(d04e29f7eea0e489782e8199ff5d248b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Night Crime/Full Track using Guid(d04e29f7eea0e489782e8199ff5d248b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6cbd48caa3bf93cf1a99d2f8dbeed2') in 0.001806 seconds 
+  Import took 0.007899 seconds .
+
